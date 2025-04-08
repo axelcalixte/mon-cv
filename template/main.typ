@@ -1,4 +1,4 @@
-#import "@preview/vercanard:1.0.2": *
+#import "@preview/vercanard:1.0.3": *
 #show: resume.with(
   name: "Your name",
   title: "What you are looking for",
