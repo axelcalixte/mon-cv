@@ -47,9 +47,7 @@
         }
         body
     }),
-    {
-      v(20pt)
-      set block(inset: (left: 0.4 * margin, right: 0.4 * margin))
+    block(inset: (bottom: margin, rest: 0.4 * margin), width: 100%, {
       show heading: it => align(right, upper(it))
       set list(marker: "")
       show list: it => {
@@ -58,6 +56,6 @@
         align(right, it)
       }
       aside
-    }
+    }),
   )
 }
