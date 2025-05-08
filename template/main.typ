@@ -65,8 +65,7 @@
 // mon-compteur portail-part refacto (bootstrap + rxjs)
 // 
 
-= Education
-
+= Formation
 
 #heading(level: 2, "UTT — Université de technologie de Troyes")
 #block(inset: (right: 2em), list(
