@@ -3,7 +3,7 @@
   name: "Axel CALIXTE",
   title: "Développeur FullStack",
   description: "Diplômé de l'Université de Technologie de Troyes, j'aime apprendre et partager de nouveaux concepts et technologies en discutant avec mes collègues.",
-  photo_path: "photo.png",
+  photo_path: "./photo.png",
   accent-color: rgb("f3bc54"),
   margin: 1.0cm,
   aside: [
@@ -17,27 +17,26 @@
     
     - Java, #link("https://spring.io/projects/spring-boot")[Spring Boot], #link("https://maven.apache.org/")[Apache Maven]
     - #link("https://www.postgresql.org/")[PostgreSQL], #link("https://kafka.apache.org/")[Apache Kafka], #link("https://www.keycloak.org/")[Keycloak]
-    - #link("https://angular.dev/")[Angular], #link("https://tailwindcss.com/")[TailwinCSS], #link("https://rxjs.dev/")[rxjs]
-    - #link("https://git-scm.com/")[git], #link("https://kernel.org/")[Linux], #link("https://www.jetbrains.com/idea/")[IntelliJ IDEA], #link("https://neovim.io/")[Neovim]
+  - #link("https://angular.dev/")[Angular], #link("https://tailwindcss.com/")[TailwindCSS], #link("https://rxjs.dev/")[rxjs]
+  - #link("https://git-scm.com/")[git], #link("https://kernel.org/")[Linux], #link("https://www.jetbrains.com/idea/")[IntelliJ IDEA], #link("https://neovim.io/")[Neovim]
 
-    = Langues
+  = Langues
 
-    - French : langue maternelle
-    - English : Cambridge English BULATS niveau C2
-    - Spanish : LanguageCert USAL esPro niveau B1
+  - Français : langue maternelle
+  - Anglais : Cambridge English BULATS niveau C2
+  - Espagnol : LanguageCert USAL esPro niveau B1
 
-    = Hobbies
+  = Loisirs
 
-    - Joueur et trésorier de l'association Project+France, organisatrice d'événements autour du jeu
-
-  ]
-)
+  - Joueur et trésorier de l'association Project+France, organisatrice d'événements autour du jeu
+  - Sports de raquettes
+])
 
 = Experiences
 
 #heading(level: 2, "SOPRA STERIA - RTE")
 #block(inset: (right: 2em), list(
-[Référent d'une équipe produit lors de la réversibilité du projet de Sopra Steria pour RTE.],
+[Référent d'une équipe produit lors de la réversibilité du projet RTE pour Sopra Steria.],
 [Responsable de la montée en compétences de l'équipe Sopra Steria sur ce produit.],
 [Corrections et évolutions réalisées sur les microservices Spring Boot et les micro-frontends Angular, interconnectés par topics Kafka et API Rest]
 ))
@@ -55,7 +54,7 @@
 #heading(level: 2, "SOPRA STERIA - ENEDIS")
 #block(inset: (right: 2em), list(
 [Amélioration de l'expérience utilisateur en développant et testant des API restful Spring Boot, étendant les intégrations partenaires et apportant de nouvelles fonctionnalités aux portails clients.],
-[Création de nouveaux composants Angular et simplifié la gestion d'états de micro-frontends existants.],
+[Création de nouveaux composants Angular et simplification de la gestion d'états de micro-frontends existants.],
 [Participation aux plannings d’itération, de Sprints et aux revues/rétro],
 ))
 #block(above: 0.7em, text(fill: gray,  "02/2023 — 01/2024"))
@@ -68,5 +67,12 @@
 
 = Education
 
-#entry("UTT — Université de technologie de Troyes", "Diplôme d’Ingénieur en Réseaux et Télécommunications spécialisation en Technologies Mobiles et Objets Connectés dont un semestre d'études à l'Université de Valladolid en Espagne", "09/2018 — 09/2023")
+
+#heading(level: 2, "UTT — Université de technologie de Troyes")
+#block(inset: (right: 2em), list(
+[Diplôme d’Ingénieur en Réseaux et Télécommunications spécialisé en Technologies Mobiles et Objets Connectés.],
+[Semestre d'études à l'étranger dans l'Université de Valladolid en Espagne.],
+))
+#block(above: 0.7em, text(fill: gray,  "09/2018 — 09/2023"))
+// #entry("UTT — Université de technologie de Troyes", " dont un semestre d'études à l'Université de Valladolid en Espagne", "09/2018 — 09/2023")
 // #entry("UVa — Universidad de Valladolid", "Master Télécommunications à la UVa en semestre d'études en Espagne", "08/2022 — 01/2023")
