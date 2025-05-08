@@ -2,7 +2,7 @@
 #show: resume.with(
   name: "Axel CALIXTE",
   title: "Développeur FullStack",
-  description: "Diplômé de l'Université de Technologie de Troyes, j'aime apprendre et partager de nouveaux concepts et technologies en discutant avec mes collègues.",
+  description: "Diplômé de l'Université de Technologie de Troyes, j'aime apprendre et partager de nouveaux concepts et technologies tout en échangeant avec mes collègues.",
   photo_path: "./photo.png",
   accent-color: rgb("f3bc54"),
   margin: 1.0cm,
@@ -17,19 +17,19 @@
     
     - Java, #link("https://spring.io/projects/spring-boot")[Spring Boot], #link("https://maven.apache.org/")[Apache Maven]
     - #link("https://www.postgresql.org/")[PostgreSQL], #link("https://kafka.apache.org/")[Apache Kafka], #link("https://www.keycloak.org/")[Keycloak]
-  - #link("https://angular.dev/")[Angular], #link("https://tailwindcss.com/")[TailwindCSS], #link("https://rxjs.dev/")[rxjs]
-  - #link("https://git-scm.com/")[git], #link("https://kernel.org/")[Linux], #link("https://www.jetbrains.com/idea/")[IntelliJ IDEA], #link("https://neovim.io/")[Neovim]
+    - #link("https://angular.dev/")[Angular], #link("https://tailwindcss.com/")[TailwindCSS], #link("https://rxjs.dev/")[rxjs]
+    - #link("https://git-scm.com/")[git], #link("https://kernel.org/")[Linux], #link("https://www.jetbrains.com/idea/")[IntelliJ IDEA], #link("https://neovim.io/")[Neovim]
 
-  = Langues
+    = Langues
 
-  - Français : langue maternelle
-  - Anglais : Cambridge English BULATS niveau C2
-  - Espagnol : LanguageCert USAL esPro niveau B1
+    - Français : langue maternelle
+    - Anglais : Cambridge English BULATS niveau C2
+    - Espagnol : LanguageCert USAL esPro niveau B1
 
-  = Loisirs
+    = Loisirs
 
-  - Joueur et trésorier de l'association Project+France, organisatrice d'événements autour du jeu
-  - Sports de raquettes
+    - Joueur et trésorier de l'association Project+France, organisatrice d'événements autour du jeu
+    - Sports de raquettes
 ])
 
 = Experiences
@@ -70,7 +70,7 @@
 #heading(level: 2, "UTT — Université de technologie de Troyes")
 #block(inset: (right: 2em), list(
 [Diplôme d’Ingénieur en Réseaux et Télécommunications spécialisé en Technologies Mobiles et Objets Connectés.],
-[Semestre d'études à l'étranger dans l'Université de Valladolid en Espagne.],
+[Semestre d'études à l'Université de Valladolid en Espagne.]
 ))
 #block(above: 0.7em, text(fill: gray,  "09/2018 — 09/2023"))
 // #entry("UTT — Université de technologie de Troyes", " dont un semestre d'études à l'Université de Valladolid en Espagne", "09/2018 — 09/2023")
