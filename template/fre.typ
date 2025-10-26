@@ -1,8 +1,8 @@
 #import "../template.typ": *
 #show: resume.with(
   name: "Axel CALIXTE",
-  title: "Développeur FullStack",
-  description: "Diplômé de l'Université de Technologie de Troyes, j'aime apprendre et partager de nouveaux concepts et technologies tout en échangeant avec mes collègues.",
+  title: "Ingénieur Logiciel",
+  description: "Diplômé de l'Université de Technologie de Troyes, je suis toujours au courant des derniers outils pour développeurs et adore la ligne de commande.",
   photo_path: "./photo.png",
   accent-color: rgb("f3bc54"),
   margin: 1.0cm,
@@ -14,7 +14,7 @@
     - #link("https://www.linkedin.com/in/axel-calixte/")[ /axel-calixte]
 
     = Stack technique
-    
+
     - Java, #link("https://spring.io/projects/spring-boot")[Spring Boot], #link("https://maven.apache.org/")[Apache Maven]
     - #link("https://www.postgresql.org/")[PostgreSQL], #link("https://kafka.apache.org/")[Apache Kafka], #link("https://www.keycloak.org/")[Keycloak]
     - #link("https://angular.dev/")[Angular], #link("https://tailwindcss.com/")[TailwindCSS], #link("https://rxjs.dev/")[rxjs]
@@ -29,41 +29,34 @@
     = Loisirs
 
     - Joueur et trésorier de l'association Project+France, organisatrice d'événements autour du jeu
+    - Escalade
     - Sports de raquettes
 ])
 
-= Experiences
+= Experiences à Sopra Steria
 
-#heading(level: 2, "SOPRA STERIA - RTE")
+#heading(level: 2, "RTE - Projet PLASMA (web)")
 #block(inset: (right: 2em), list(
-[Référent d'une équipe produit lors de la réversibilité du projet RTE pour Sopra Steria.],
-[Responsable de la montée en compétences de l'équipe Sopra Steria sur ce produit.],
-[Corrections et évolutions réalisées sur les microservices Spring Boot et les micro-frontends Angular, interconnectés par topics Kafka et API Rest]
+[Responsable du produit DNG lors de la réversibilité du projet PLASMA pour Sopra Steria.],
+[Lead Dev d'un développement en 3 mois d'un nouveau microservice DNG pour incorporer les données d'une autre application RTE dans PLASMA.],
+[Responsable de la montée en compétences de l'équipe Sopra Steria sur DNG],
 ))
-// projets architecturés en microservices spring-boot, micro-frontend angular, les bases de données sont postgresql et la communication entre les différents microservices est via kafka
-// projet de + 50 personnes répartis sur 6 équipes produit
-// j'ai réjoint une des 6 équipes produits en amont d'une réversibilité du projet mené par Sopra Stéria pour RTE
-// je suis devenu référent de l'équipe produit que j'ai rejoins
-// je suis en charge de la montée en compétences des membres de l'équipe Sopra Steria sur le produit
 #block(above: 0.7em, text(fill: gray,  "10/2024 — aujourd'hui"))
 
-#heading(level: 2, "SOPRA STERIA - AIFE")
-#block(inset: (right: 2em), "Création d'un nouvel outil de génération de données pour les équipes QA du client en utilisant l'ETL Altova® MapForce® et une surcouche d’intégration Java, pour réduire le temps de préparation des tests grâce à la conversion automatisée de demandes de paiement XML aux formats UBL et FacturX.")
+#heading(level: 2, "AIFE - Projet CHORUS PRO (bureau)")
+#block(inset: (right: 2em), list(
+[Développement d'une CLI Java avec Picocli pour faciliter la QA dans leur création automatique de 3 formats différents de factures XML pour l'application publique Chorus Pro.]
+))
 #block(above: 0.7em, text(fill: gray,  "01/2024 — 10/2024"))
 
-#heading(level: 2, "SOPRA STERIA - ENEDIS")
+#heading(level: 2, "ENEDIS - Projet LINCS (web)")
 #block(inset: (right: 2em), list(
-[Amélioration de l'expérience utilisateur en développant et testant des API restful Spring Boot, étendant les intégrations partenaires et apportant de nouvelles fonctionnalités aux portails clients.],
-[Création de nouveaux composants Angular et simplification de la gestion d'états de micro-frontends existants.],
-[Participation aux plannings d’itération, de Sprints et aux revues/rétro],
+[Intégration de nouveaux services Enedis au portail utilisateur de LINCS pour offrir de nouvelles fonctionnalités],
+[Développement de nouvelles APIs restful Spring-Boot internes à LINCS],
+[Retravailler des pages entières afin de simplifier la gestion d'états en cascade d'applications Angular],
+[Apprendre à évoluer dans un large projet de plus de 100 personnes dans un contexte SAFE / SCRUM]
 ))
 #block(above: 0.7em, text(fill: gray,  "02/2023 — 01/2024"))
-// J'ai ajouté 7 fonctionnalité au portail client en intégrant de
-// nouveaux services Spring et les API partenaires, aboutissant à une
-// augmentation de 4 % de la satisfaction des utilisateurs.
-
-// mon-compteur portail-part refacto (bootstrap + rxjs)
-// 
 
 = Formation
 
@@ -73,5 +66,4 @@
 [Semestre d'études à l'Université de Valladolid en Espagne.]
 ))
 #block(above: 0.7em, text(fill: gray,  "09/2018 — 09/2023"))
-// #entry("UTT — Université de technologie de Troyes", " dont un semestre d'études à l'Université de Valladolid en Espagne", "09/2018 — 09/2023")
-// #entry("UVa — Universidad de Valladolid", "Master Télécommunications à la UVa en semestre d'études en Espagne", "08/2022 — 01/2023")
+

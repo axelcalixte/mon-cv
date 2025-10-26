@@ -14,7 +14,7 @@
 
 #let resume(name: "", title: "", description: "", photo_path: "", accent-color: rgb("db9df8"), margin: 100pt, aside: [], body) = {
   set page(margin: 0pt, background: place(top + left, rect(fill: accent-color.lighten(80%), width: 33.33333%, height: 100%)))
-  set text(font: "Inter", size: 12pt)
+  set text(font: "Adwaita Sans", size: 12pt)
   set block(above: 0pt, below: 0pt)
   set par(justify: true)
 
