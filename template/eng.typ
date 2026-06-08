@@ -1,8 +1,8 @@
 #import "../template.typ": *
 #show: resume.with(
   name: "Axel CALIXTE",
-  title: "Software Engineer",
-  description: "Graduate from University of technology of Troyes, I'm always keeping track of new developer tools to try and love the command-line.",
+  title: "FullStack Software Engineer",
+  description: "Developer with three years of experience, seeking a new opportunity to leverage my technical expertise in support of business growth, further accelerate my learning, and continue sharing knowledge within a collaborative team.",
   photo_path: "./photo.png",
   accent-color: rgb("f3bc54"),
   margin: 1.0cm,
@@ -36,13 +36,13 @@
 
 #heading(level: 2, "RTE - PLASMA project (web)")
 #block(inset: (right: 2em), list(
-[DNG Product team lead during the transferability of PLASMA to Sopra Steria.],
-[Technical Lead for a new DNG microservice developped in 3 months to gather and incorporate data from another RTE application to PLASMA.],
-[Responsible for upskilling Sopra Steria teams on the DNG product.],
+[Responsible for the upskilling of Sopra Steria teams on the DNG Product.],
+[Technical Lead for a new DNG microservice developped in 3 months to gather and merge data from another RTE application to PLASMA.],
+[Development of a new microservice and microfrontend that consume and display critical alerts in real-time by integrating a new third party API.],
 ))
 #block(above: 0.7em, text(fill: gray,  "2024-10 — today"))
 
-#heading(level: 2, "AIFE - CHORUS PRO project (desktop)")
+#heading(level: 2, "AIFE - CHORUS PRO project (terminal)")
 #block(inset: (right: 2em), list(
 [Made a Java CLI with Picocli to help QA batch create their test invoices in 3 different XML formats automatically for the Chorus Pro government application.]
 ))
